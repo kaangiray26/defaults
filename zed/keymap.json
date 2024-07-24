@@ -1,0 +1,9 @@
+[
+    {
+        "context": "Editor",
+        "bindings": {
+            "ctrl-shift-/": "editor::ToggleComments",
+            "ctrl--": "pane::GoBack"
+        }
+    }
+]
