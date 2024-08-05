@@ -5,5 +5,13 @@
             "ctrl-shift-/": "editor::ToggleComments",
             "ctrl--": "pane::GoBack"
         }
+    },
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-c": "terminal::Copy",
+            "ctrl-v": "terminal::Paste",
+            "ctrl-shift-c": ["terminal::SendKeystroke", "ctrl-c"]
+        }
     }
 ]
