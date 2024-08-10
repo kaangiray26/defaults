@@ -1,9 +1,17 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: Open Default Keymap`
+// from the command palette.
 [
     {
         "context": "Editor",
         "bindings": {
             "ctrl-shift-/": "editor::ToggleComments",
-            "ctrl--": "pane::GoBack"
+            "ctrl--": "pane::GoBack",
+            "ctrl-shift-enter": "copilot::Suggest"
         }
     },
     {
