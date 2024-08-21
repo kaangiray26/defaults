@@ -28,5 +28,16 @@
     "prettier": {
         "allowed": true
     },
-    "soft_wrap": "editor_width"
+    "soft_wrap": "editor_width",
+    "ensure_final_newline_on_save": false,
+    "lsp": {
+        "pyright": {
+            "settings": {
+                "python": {
+                    "pythonPath": "env/bin/python",
+                    "venvPath": "."
+                }
+            }
+        }
+    }
 }
